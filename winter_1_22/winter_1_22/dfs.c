@@ -1,6 +1,6 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-//#include <stdio.h>
-//
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+
 //void print(int n)
 //{
 //	if (n > 9)
@@ -27,9 +27,16 @@
 //	scanf("%d", &num);
 //	print(num);
 //}
+//
+//int main()
+//{
+//	fun1();
+//	return 0;
+//}
+
 ////*****************************************************
 //
-////第一种，利用临时变量计数
+//第一种，利用临时变量计数
 //int my_strlen1(char *arr)
 //{
 //	int cnt = 0;
@@ -56,11 +63,11 @@
 //{
 //	//strlen的实现过程
 //	char arr[] = "zhanghaoyu";
-//	int ret = my_strlen2(arr);
+//	int ret = my_strlen1(arr);
 //
 //	printf("%d", ret);
 //}
-//
+
 //
 //int Fac(int num)
 //{
@@ -81,9 +88,10 @@
 //	}
 //
 //}
+
 //
 //
-////用递归写斐波那契数列有明显的劣势，每次都要大量的重复计算，效率很低
+//用递归写斐波那契数列有明显的劣势，每次都要大量的重复计算，效率很低
 //int Fib(int n)
 //{
 //	if (n <= 2)
@@ -122,7 +130,7 @@
 //		printf("%d\n", c);
 //	}
 //}
-//
+
 //
 //int main()
 //{

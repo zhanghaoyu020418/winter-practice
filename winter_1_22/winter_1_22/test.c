@@ -34,3 +34,15 @@
 //
 //
 //
+
+
+//#include <string.h>
+//#include <stdio.h>
+//int main()
+//{
+//	int arr[] = { 1,2,(3,4),5 };
+//	char arr1[] = { 1,2,3,4 };
+//	char arr2[] = "1234";
+//	printf("%d\n", strlen(arr1));
+//	return 0;
+//}

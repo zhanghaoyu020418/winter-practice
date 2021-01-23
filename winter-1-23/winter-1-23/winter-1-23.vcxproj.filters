@@ -18,5 +18,14 @@
     <ClCompile Include="数组中找数字.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="蓝桥杯.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="未名湖的烦恼.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

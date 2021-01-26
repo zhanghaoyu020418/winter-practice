@@ -22,18 +22,18 @@
 //	printf("%d\n", ret);
 //	return 0;
 //}
-
-int sum = 1;
-
-int f(int n, int k)
-{
-	if (k != 1)
-	{
-		f(n, k - 1);
-	}
-	sum *= n;
-	return sum;
-}
+//
+//int sum = 1;
+//
+//int f(int n, int k)
+//{
+//	if (k != 1)
+//	{
+//		f(n, k - 1);
+//	}
+//	sum *= n;
+//	return sum;
+//}
 ///*
 //Ë¼Â·£º
 //			n    n < 10

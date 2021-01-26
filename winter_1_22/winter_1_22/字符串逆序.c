@@ -21,7 +21,7 @@
 //	return 0;
 //}
 
-*
+/*
 思路：
 逆置字符串，循环的方式实现非常简单
 1. 给两个指针，left放在字符串左侧，right放在最后一个有效字符位置
@@ -53,15 +53,15 @@ void reverse_string(char* arr)
   1. 交换a和g，
   2. 以递归的方式逆置源字符串的剩余部分，剩余部分可以看成一个有效的字符串，再以类似的方式逆置
 */
-void reverse_string(char* arr)
-{
-	int len = strlen(arr);
-	char tmp = *arr;
-	*arr = *(arr + len - 1);
-
-	*(arr + len - 1) = '\0';
-	if (strlen(arr + 1) >= 2)
-		reverse_string(arr + 1);
-
-	*(arr + len - 1) = tmp;
-}
+//void reverse_string(char* arr)
+//{
+//	int len = strlen(arr);
+//	char tmp = *arr;
+//	*arr = *(arr + len - 1);
+//
+//	*(arr + len - 1) = '\0';
+//	if (strlen(arr + 1) >= 2)
+//		reverse_string(arr + 1);
+//
+//	*(arr + len - 1) = tmp;
+//}

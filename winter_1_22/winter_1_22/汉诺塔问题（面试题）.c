@@ -1,4 +1,4 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 //#include <stdio.h>
 //static int cnt = 0;
 //
@@ -32,3 +32,25 @@
 //	printf("%d", cnt);
 //	return 0;
 //}
+
+#include <stdio.h>
+
+int f[20];
+
+int main()
+{
+	int i = 0;
+	int n = 0;
+	scanf("%d", &n);
+
+	f[1] = 1;
+	for (i = 2; i <= n; i++)
+	{
+		f[i] = 1 + f[i - 1] * 2;
+	}
+
+	printf("%d\n", f[n]);
+
+
+	return 0;
+}

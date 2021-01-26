@@ -24,7 +24,7 @@ void playgame()
 	Board_display(mine, ROW, COL);   */    
 
 
-	setmine(mine, ROW, COL, 80);              //设置雷
+	setmine(mine, ROW, COL, DIFFCULT);              //设置雷
 
 	printf("扫雷版面\n");
 	Board_display(mine, ROW, COL);
@@ -35,7 +35,7 @@ void playgame()
 	Board_display(display, ROW, COL);  //展示游戏界面
 
 
-	findmine(display, mine, ROW, COL, 80);
+	findmine(display, mine, ROW, COL, DIFFCULT);
 
 	printf("地雷分布情况:>\n");
 	Board_display(mine, ROW, COL);

@@ -2,19 +2,19 @@
 #include <stdio.h>
 
 
-int main()
-{
-	int k;
-	int n;
-	printf("请依次输入n的k次方:>\n");
-	while (scanf("%d", &n) && scanf("%d", &k))
-	{
-		int ret = f(n, k);
-		printf("%d\n", ret);
-	}
-	
-	return 0;
-}
+//int main()
+//{
+//	int k;
+//	int n;
+//	printf("请依次输入n的k次方:>\n");
+//	while (scanf("%d", &n) && scanf("%d", &k))
+//	{
+//		int ret = f(n, k);
+//		printf("%d\n", ret);
+//	}
+//	
+//	return 0;
+//}
 ///*
 //思路：
 //		  1      K==0

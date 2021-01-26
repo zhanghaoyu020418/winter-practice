@@ -11,9 +11,9 @@
 #define ROW 9
 #define COL 9
 
-#define EASY 10;
-#define MID 40;
-#define DIFFCULT 80;
+#define EASY 10
+#define MID 40
+#define DIFFCULT 80
 
 
 //≥ı ºªØ∞Ê√Ê

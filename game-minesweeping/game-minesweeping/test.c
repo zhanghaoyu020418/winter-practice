@@ -16,21 +16,32 @@ void playgame()
 	char mine[ROWS][COLS] = { 0 };
 	char display[ROWS][COLS] = { 0 };
 
-	Board_init(mine, ROWS, COLS, '0');
-	Board_init(display, ROWS, COLS, '*');
+	Board_init(mine, ROWS, COLS, '0');     //初始化地雷版面
+	Board_init(display, ROWS, COLS, '*');  //初始化游戏版面
 
-	printf("\n");
+/*	printf("\n");
 	printf("扫雷版面\n");
-	Board_display(mine, ROWS, COLS);
+	Board_display(mine, ROW, COL);   */    
+
+
+	setmine(mine, ROW, COL, 80);              //设置雷
+
+	printf("扫雷版面\n");
+	Board_display(mine, ROW, COL);
+
+
 	printf("\n");
 	printf("设置雷的版面\n");
-	Board_display(display, ROW, COL);
-
-	setmine(mine, ROW, COL);
+	Board_display(display, ROW, COL);  //展示游戏界面
 
 
+	findmine(display, mine, ROW, COL, 80);
 
-	findmine(display, mine, ROW, COL);
+	printf("地雷分布情况:>\n");
+	Board_display(mine, ROW, COL);
+
+	printf("\n\n");
+
 
 	getchar();
 }

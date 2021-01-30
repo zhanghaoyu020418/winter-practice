@@ -130,6 +130,7 @@
     <ClCompile Include="两个数的二进制数不同位的个数.c" />
     <ClCompile Include="二进制位1的数数.c" />
     <ClCompile Include="unsigned int 算数转换(strlen).c" />
+    <ClCompile Include="喝汽水.c" />
     <ClCompile Include="奇数前置.c" />
     <ClCompile Include="字符串逆序.c" />
     <ClCompile Include="而金属的奇数位和偶数位.c" />

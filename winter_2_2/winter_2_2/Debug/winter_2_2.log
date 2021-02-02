@@ -1,0 +1,4 @@
+﻿  qsort.c
+d:\github仓库\winter-practice\winter_2_2\winter_2_2\qsort.c(36): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+d:\github仓库\winter-practice\winter_2_2\winter_2_2\qsort.c(76): warning C4305: “初始化”: 从“double”到“float”截断
+  winter_2_2.vcxproj -> D:\github仓库\winter-practice\winter_2_2\Debug\winter_2_2.exe

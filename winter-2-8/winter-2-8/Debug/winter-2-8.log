@@ -1,2 +1,5 @@
 ﻿  memmove.c
+  strstr.c
+d:\github仓库\winter-practice\winter-2-8\winter-2-8\strstr.c(20): warning C4090: “return”: 不同的“const”限定符
+  正在生成代码...
   winter-2-8.vcxproj -> D:\github仓库\winter-practice\winter-2-8\Debug\winter-2-8.exe

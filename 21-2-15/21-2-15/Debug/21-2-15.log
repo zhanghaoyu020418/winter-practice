@@ -1,0 +1,7 @@
+﻿  跳跃机器人.cpp
+d:\github仓库\winter-practice\21-2-15\21-2-15\跳跃机器人.cpp(6): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\github仓库\winter-practice\21-2-15\21-2-15\跳跃机器人.cpp(28): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\github仓库\winter-practice\21-2-15\21-2-15\跳跃机器人.cpp(31): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+d:\github仓库\winter-practice\21-2-15\21-2-15\跳跃机器人.cpp(33): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+d:\github仓库\winter-practice\21-2-15\21-2-15\跳跃机器人.cpp(35): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  21-2-15.vcxproj -> D:\github仓库\winter-practice\21-2-15\Debug\21-2-15.exe

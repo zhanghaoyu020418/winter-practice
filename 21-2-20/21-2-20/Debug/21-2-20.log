@@ -1,0 +1,4 @@
+﻿  高精度减法.cpp
+d:\github仓库\winter-practice\21-2-20\21-2-20\高精度减法.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
+d:\github仓库\winter-practice\21-2-20\21-2-20\高精度减法.cpp(15): warning C4018: “>=”: 有符号/无符号不匹配
+  21-2-20.vcxproj -> D:\github仓库\winter-practice\21-2-20\Debug\21-2-20.exe

@@ -1,4 +1,4 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 //#include <iostream>
 //#include <string>
 //
@@ -40,3 +40,45 @@
 //
 //	return 0;
 //}
+
+#include <iostream>
+#include <string>
+#include <cstring>
+
+using namespace std;
+
+class Book
+{
+public:
+	Book();
+	Book(int i, float p) :id(i), price(p) {}
+	Book(int i) :id(i) {}
+	void show_book();
+private:
+	int id;
+	float price;
+	string author_name;
+};
+
+Book::Book()
+{
+	id = 1;
+	price = 66.6;
+	author_name = "haha";
+}
+
+void Book::show_book()
+{
+	cout << id << endl;
+	cout << price << endl;
+	cout << author_name << endl;
+}
+
+int main()
+{
+	Book b1;
+	Book b2(1);
+	b1.show_book();
+	b2.show_book();
+	return 0;
+}

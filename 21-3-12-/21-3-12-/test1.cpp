@@ -50,7 +50,7 @@ int main()
 		ps->a[i] = i;
 	for (int i = 0; i < 10; i++)
 		cout << ps->a[i] << ' ';
-	
+	cout << endl;
 	free(ps);
 	return 0;
 }

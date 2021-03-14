@@ -1,0 +1,23 @@
+﻿  sort.cpp
+d:\github仓库\practice-code\21-3-14\21-3-14\sort.cpp(175): warning C4244: “参数”: 从“double”转换到“numtype”，可能丢失数据
+          with
+          [
+              numtype=int
+          ]
+d:\github仓库\practice-code\21-3-14\21-3-14\sort.cpp(160): warning C4244: “初始化”: 从“numtype”转换到“float”，可能丢失数据
+          with
+          [
+              numtype=int
+          ]
+  d:\github仓库\practice-code\21-3-14\21-3-14\sort.cpp(160): note: 编译 类 模板 成员函数 "Compare<int>::Compare(numtype,numtype)" 时
+          with
+          [
+              numtype=int
+          ]
+  d:\github仓库\practice-code\21-3-14\21-3-14\sort.cpp(175): note: 参见对正在编译的函数 模板 实例化“Compare<int>::Compare(numtype,numtype)”的引用
+          with
+          [
+              numtype=int
+          ]
+  d:\github仓库\practice-code\21-3-14\21-3-14\sort.cpp(175): note: 参见对正在编译的 类 模板 实例化 "Compare<int>" 的引用
+  21-3-14.vcxproj -> D:\github仓库\practice-code\21-3-14\Debug\21-3-14.exe

@@ -1,0 +1,9 @@
+﻿  demo.cpp
+d:\github仓库\practice-code\21-3-22\21-3-22\demo.cpp(13): error C2665: “std::stoi”: 2 个重载中没有一个可以转换所有参数类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\string(321): note: 可能是“int std::stoi(const std::wstring &,size_t *,int)”
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\string(179): note: 或    “int std::stoi(const std::string &,size_t *,int)”
+  d:\github仓库\practice-code\21-3-22\21-3-22\demo.cpp(13): note: 尝试匹配参数列表“(_Elem, int, int)”时
+          with
+          [
+              _Elem=char
+          ]

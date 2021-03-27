@@ -1,0 +1,4 @@
+﻿  demo.cpp
+d:\github仓库\practice-code\21-3-27\21-3-27\demo.cpp(12): warning C4244: “初始化”: 从“double”转换到“ll”，可能丢失数据
+d:\github仓库\practice-code\21-3-27\21-3-27\demo.cpp(16): warning C4244: “参数”: 从“ll”转换到“WORD”，可能丢失数据
+  21-3-27.vcxproj -> D:\github仓库\practice-code\21-3-27\Debug\21-3-27.exe

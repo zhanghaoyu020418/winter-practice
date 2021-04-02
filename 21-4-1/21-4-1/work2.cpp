@@ -68,19 +68,19 @@ void BirthDate::change(int y, int m, int d)
 
 void BirthDate::display()
 {
-	printf("%d/%d/%d\n", year, month, day);
+	printf("birthday: %d/%d/%d\n", year, month, day);
 }
 
 class Professor:public Teacher
 {
 public:
-	explicit Professor(int num, string name, char sex, int y, int m, int d):
+	Professor(int num, string name, char sex, int y, int m, int d):
 		Teacher(num, name, sex), birthday(y, m, d) {}
 	void display();
 	void change(int y, int m, int d);
 private:
 	BirthDate birthday;
-}
+};
 
 void Professor::change(int y, int m, int d)
 {
@@ -95,6 +95,10 @@ void Professor::display()
 
 int main()
 {
- 
+	Professor pr(1001, "Wangli", 'f', 1973, 5, 10);
+	pr.display();
+	cout << endl << endl;
+	pr.change(1975, 10, 12);
+	pr.display();
 	return 0;
 }

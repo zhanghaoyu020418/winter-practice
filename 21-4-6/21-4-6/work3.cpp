@@ -28,8 +28,9 @@ class Student: public Person
 	char ClassName[10]; //班级
 	Person Monitor; //班长
 public:
-	Student(char *name, int age, char *classname, char *name1, int age1):Person(name1, age1), 
-	Monitor(name, age){
+	Student(char *name, int age, char *classname, char *name1, int age1):Person(name1, age1), //Person是因为继承所以要构造
+	Monitor(name, age)// Monitor是对象所以要构造
+	{
 		strcpy(ClassName, classname);
 		cout << "constructor of Student" << endl;
 		cout << endl;

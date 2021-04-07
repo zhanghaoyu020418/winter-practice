@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets(76,5): warning : 对路径“d:\github仓库\practice-code\21-4-7\debug\21-4-7.exe”的访问被拒绝。
+  SList.cpp
+  test.cpp
+  正在生成代码...
+LINK : fatal error LNK1104: 无法打开文件“D:\github仓库\practice-code\21-4-7\Debug\21-4-7.exe”

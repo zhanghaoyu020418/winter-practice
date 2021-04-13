@@ -1,0 +1,5 @@
+﻿  demo.cpp
+  demo1.cpp
+d:\github仓库\practice-code\21-4-13\21-4-13\demo1.cpp(40): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码...
+  21-4-13.vcxproj -> D:\github仓库\practice-code\21-4-13\Debug\21-4-13.exe

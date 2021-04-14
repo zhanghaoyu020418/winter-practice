@@ -1,0 +1,4 @@
+﻿  demp.cpp
+d:\github仓库\practice-code\21-4-14\21-4-14\demp.cpp(14): warning C4552: ”<“: 未使用表达式结果
+d:\github仓库\practice-code\21-4-14\21-4-14\demp.cpp(27): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\github仓库\practice-code\21-4-14\21-4-14\demp.cpp(15): error C4716: “Pre::operator<”: 必须返回一个值

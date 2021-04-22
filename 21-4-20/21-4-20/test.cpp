@@ -12,7 +12,7 @@ void Exit(char choic)
 
 void Menu()
 {
-	cout << "\t欢迎来到欢乐五子棋!" << endl;
+	cout << "\t欢迎来到欢乐三子棋!" << endl;
 	cout << "  -----------------------------" << endl;
 	cout << "  ---    请选择你要的操作   ---" << endl;
 	cout << "  ---    1.start game(Y)    ---" << endl;
@@ -20,11 +20,13 @@ void Menu()
 	cout << "  -----------------------------" << endl;
 }
 
+CGoBang p1('o');
+CGoBang p2('x');
+
 void playgame()
 {
 	CGoBang::PrintBoard();
-	CGoBang p1('o');
-	CGoBang p2('x');
+
 	while (1)
 	{
 		p1.PlayTurn();
@@ -52,7 +54,6 @@ void playgame()
 		}
 		CGoBang::PrintBoard();
 	}
-
 }
 
 void Test1()
@@ -73,11 +74,18 @@ void Test1()
 		cin >> choic;
 		system("cls");
 	} while (choic == 'Y');
+	p1.PrintInfo();
+	p2.PrintInfo();
+	cout << "Draw: > " << Draw << endl;
+	Sleep(3000);
 	Exit(choic);
 }
 
 int main()
 {
+	system("title 欢乐三子棋");//设置标题
+	system("mode con cols=40 lines=29");//设置窗口大小
+	system("color E0");//设置颜色
 	Test1();
 	return 0;
 }

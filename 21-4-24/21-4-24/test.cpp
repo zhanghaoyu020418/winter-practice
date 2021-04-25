@@ -3,6 +3,7 @@
 #include <queue>
 #include <algorithm>
 #include <vector>
+#include <string>
 
 using namespace std;
 
@@ -26,6 +27,7 @@ int main()
 		cout << BHeap.top() << ' ';
 		BHeap.pop();
 	}
+
 
 	return 0;
 }

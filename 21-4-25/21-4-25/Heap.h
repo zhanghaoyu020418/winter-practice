@@ -15,6 +15,10 @@ typedef struct Heap
 	int _capacity;
 }Heap;
 
+// 向下调整法
+void AdjustDown(HPDataType* a, int n, int parent);
+// 向上调整法
+void AdjustUp(HPDataType* a, int child); 
 // 堆的构建
 void HeapCreate(Heap* hp, HPDataType* a, int n);
 // 堆的销毁

@@ -1,3 +1,4 @@
-﻿  test.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets(76,5): warning : 对路径“d:\github仓库\practice-code\21-4-26\debug\21-4-26.exe”的访问被拒绝。
+  test.cpp
 d:\github仓库\practice-code\21-4-26\21-4-26\test.cpp(26): warning C4715: “TreeLeafSize”: 不是所有的控件路径都返回值
-LINK : fatal error LNK1168: 无法打开 D:\github仓库\practice-code\21-4-26\Debug\21-4-26.exe 进行写入
+LINK : fatal error LNK1104: 无法打开文件“D:\github仓库\practice-code\21-4-26\Debug\21-4-26.exe”

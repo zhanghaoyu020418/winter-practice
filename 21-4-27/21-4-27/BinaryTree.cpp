@@ -213,3 +213,31 @@ void BinaryTreeIn(BTNode* root)
 		}
 	}
 }
+
+// 二叉树的序列化
+void pres(BTNode* root, queue<string>& ans)
+{
+	if (root == NULL)
+		ans.push("#");
+	else
+	{
+		ans.push(to_string(root->_data));// 将根结点的元素转化为string类型的元素放到queue中保存起来
+		pres(root->_left, ans); // 左树序列化
+		pres(root->_right, ans);// 右树序列化
+	}
+}
+
+// 二叉树的反序列化
+BTNode* preb(queue<string>& ans)
+{
+	string tmp = ans.front();
+	ans.pop();
+	if (tmp == "#")
+		return NULL;
+
+	BTNode* root = new BTNode;  // 创建一个根节点
+	root->_data = stoi(tmp);    // 从queue中将队头元素拿出并转化为BTNodeType类型的数据放到根节点中
+
+	root->_left = preb(ans); // 左树反序列化
+	root->_right = preb(ans); // 右树反序列化
+}

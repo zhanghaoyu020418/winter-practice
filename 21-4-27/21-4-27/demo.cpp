@@ -63,10 +63,10 @@ void test2()
 	C->_left = F;
 	C->_right = G;
 
-	//BinaryTreePrevOrder(A);
-	//cout << endl;
-	//BinaryTreePrev(A);
-	//cout << endl;
+	BinaryTreePrevOrder(A);
+	cout << endl;
+	BinaryTreePrev(A);
+	cout << endl;
 
 	//BinaryTreePostOrder(A);
 	//cout << endl;
@@ -75,10 +75,10 @@ void test2()
 	//BinaryTreePost2(A);
 	//cout << endl;
 
-	//BinaryTreeInOrder(A);
-	//cout << endl;
-	//BinaryTreeIn(A);
-	//cout << endl;
+	BinaryTreeInOrder(A);
+	cout << endl;
+	BinaryTreeIn(A);
+	cout << endl;
 }
 
 
@@ -107,7 +107,7 @@ void test3()
 
 int main()
 {
-	test3();
+	test2();
 
 	return 0;
 }

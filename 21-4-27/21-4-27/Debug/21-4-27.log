@@ -1,2 +1,5 @@
-﻿  demo.cpp
+﻿  BinaryTree.cpp
+  demo.cpp
+  正在生成代码...
+d:\github仓库\practice-code\21-4-27\21-4-27\binarytree.cpp(294): warning C4715: “preb”: 不是所有的控件路径都返回值
   21-4-27.vcxproj -> D:\github仓库\practice-code\21-4-27\Debug\21-4-27.exe

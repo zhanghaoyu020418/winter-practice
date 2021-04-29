@@ -5,7 +5,17 @@
 // 通过前序遍历的数组"ABD##E#H##CF##G##"构建二叉树
 BTNode* BinaryTreeCreate(BTDataType* a, int n, int* pi);
 // 二叉树销毁
-void BinaryTreeDestory(BTNode** root);
+void BinaryTreeDestory(BTNode* root)
+{
+	if (root == NULL)
+		return;
+
+	BinaryTreeDestory(root->_left);
+	BinaryTreeDestory(root->_right);
+	free(root);
+	root = NULL;
+}
+
 // 二叉树节点个数
 int BinaryTreeSize(BTNode* root)
 {
@@ -40,6 +50,47 @@ int BinaryTreeLevelKSize(BTNode* root, int k)
 }
 
 // 二叉树查找值为x的节点
+BTNode* BinaryTreeFind1(BTNode* root, BTDataType x)
+{
+	if (root == NULL)
+		return NULL;
+
+	if (root->_data == x)
+		return root;
+
+	BTNode* leftNode = BinaryTreeFind1(root->_left, x);
+	BTNode* rightNode = BinaryTreeFind1(root->_right, x);
+
+
+	if (leftNode)
+		return leftNode;
+	if (rightNode)
+		return rightNode;
+	return NULL;
+}
+
+// 二叉树查找值为x的节点
+BTNode* BinaryTreeFind2(BTNode* root, BTDataType x)
+{
+	if (root == NULL)
+		return NULL;
+
+	if (root->_data == x)
+		return root;
+
+	BTNode* leftNode = BinaryTreeFind2(root->_left, x);
+	BTNode* rightNode = BinaryTreeFind2(root->_right, x);
+	BTNode* ans = NULL;
+
+	if (leftNode)
+		ans = leftNode;
+	if (rightNode)
+		ans = rightNode;
+	return ans;
+}
+	
+
+// 二叉树查找值为x的节点
 BTNode* BinaryTreeFind(BTNode* root, BTDataType x)
 {
 	if (root == NULL)
@@ -49,17 +100,15 @@ BTNode* BinaryTreeFind(BTNode* root, BTDataType x)
 		return root;
 
 	BTNode* leftNode = BinaryTreeFind(root->_left, x);
-	if (leftNode)
-		return leftNode;
-	
 	BTNode* rightNode = BinaryTreeFind(root->_right, x);
 
+
+	if (leftNode)
+		return leftNode;
 	if (rightNode)
 		return rightNode;
-	else
-		return NULL;
+	return NULL;
 }
-
 // 二叉树前序遍历 
 void BinaryTreePrevOrder(BTNode* root)
 {
@@ -113,6 +162,8 @@ void BinaryTreeLevelOrder(BTNode* root)
 			q.push(tmp->_right);
 	}
 }
+
+
 
 // 判断二叉树是否是完全二叉树
 int BinaryTreeComplete(BTNode* root);
@@ -202,14 +253,14 @@ void BinaryTreeIn(BTNode* root)
 		if (root)
 		{
 			sk.push(root);
-			root = root->_left;
+			root = root->_left;// 左子树
 		}
 		else
 		{
-			root = sk.top();
+			root = sk.top(); // 头结点
 			sk.pop();
 			cout << root->_data << ' ';
-			root = root->_right;
+			root = root->_right;// 右子树
 		}
 	}
 }

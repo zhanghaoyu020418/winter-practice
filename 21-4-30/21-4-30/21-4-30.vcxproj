@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="firstAndSecond.cpp" />
     <ClCompile Include="hanoi.cpp" />
     <ClCompile Include="stackReverse.cpp" />
     <ClCompile Include="zhuan.cpp" />

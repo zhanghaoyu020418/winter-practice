@@ -1,0 +1,4 @@
+﻿  demo.cpp
+d:\github仓库\practice-code\21-5-4\21-5-4\demo.cpp(12): warning C4477: “printf”: 格式字符串“%o”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“char *[]”
+d:\github仓库\practice-code\21-5-4\21-5-4\demo.cpp(12): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“char *[]”
+  21-5-4.vcxproj -> D:\github仓库\practice-code\21-5-4\Debug\21-5-4.exe

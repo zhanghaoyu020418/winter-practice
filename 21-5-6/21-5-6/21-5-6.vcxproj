@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="demo.cpp" />
     <ClCompile Include="sub.cpp" />
     <ClCompile Include="滑动窗口.cpp" />
   </ItemGroup>

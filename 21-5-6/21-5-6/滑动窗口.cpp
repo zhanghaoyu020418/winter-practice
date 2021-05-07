@@ -22,9 +22,9 @@
 //		while (!dmax.empty() && a[dmax.back()] <= a[i])
 //			dmax.pop_back();
 //		dmax.push_back(i);
-//		if (dmax.front() == i - w)
+//		if (dmax.front() == i - w)// 判断deque的头元素是否过期
 //			dmax.pop_front();
-//		if (i >= w - 1)
+//		if (i >= w - 1)// 当窗口中有w个元素的时候才打印元素
 //			res[index++] = a[dmax.front()];
 //	}
 //	for (int i = 0; i < index; i++)

@@ -4,7 +4,9 @@
 
 using namespace std;
 
-int main()
-{
-	re
-}
+
+// ´òÓ¡º¯Êı
+void PrintArray(int* a, int n);
+
+// Ñ¡ÔñÅÅĞò
+void SelectSort(int* a, int n);

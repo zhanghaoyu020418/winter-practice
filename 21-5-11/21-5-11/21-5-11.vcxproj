@@ -123,9 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\21-5-9\21-5-9\Sort.cpp" />
+    <ClCompile Include="..\..\21-5-9\21-5-9\test.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
-    <ClCompile Include="PTA1.cpp" />
-    <ClCompile Include="PTA2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\21-5-9\21-5-9\Sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

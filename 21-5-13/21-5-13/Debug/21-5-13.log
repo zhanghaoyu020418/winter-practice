@@ -1,0 +1,26 @@
+﻿  stl.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\queue(137): error C2039: “pop_front”: 不是“std::vector<int,std::allocator<_Ty>>”的成员
+          with
+          [
+              _Ty=int
+          ]
+  d:\github仓库\practice-code\21-5-13\21-5-13\stl.cpp(15): note: 参见“std::vector<int,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\queue(136): note: 编译 类 模板 成员函数 "void std::queue<int,std::vector<int,std::allocator<_Ty>>>::pop(void)" 时
+          with
+          [
+              _Ty=int
+          ]
+  d:\github仓库\practice-code\21-5-13\21-5-13\stl.cpp(17): note: 参见对正在编译的函数 模板 实例化“void std::queue<int,std::vector<int,std::allocator<_Ty>>>::pop(void)”的引用
+          with
+          [
+              _Ty=int
+          ]
+  d:\github仓库\practice-code\21-5-13\21-5-13\stl.cpp(15): note: 参见对正在编译的 类 模板 实例化 "std::queue<int,std::vector<int,std::allocator<_Ty>>>" 的引用
+          with
+          [
+              _Ty=int
+          ]

@@ -1,2 +1,2 @@
 ﻿  demo.cpp
-  21-5-25.vcxproj -> D:\github仓库\practice-code\21-5-25\Debug\21-5-25.exe
+LINK : fatal error LNK1168: 无法打开 D:\github仓库\practice-code\21-5-25\Debug\21-5-25.exe 进行写入

@@ -1,0 +1,6 @@
+﻿  demo.cpp
+d:\github仓库\practice-code\21-5-29\21-5-29\demo.cpp(60): error C2652: “Complex”: 非法的复制构造函数: 第一个参数不应是“Complex”
+  d:\github仓库\practice-code\21-5-29\21-5-29\demo.cpp(50): note: 参见“Complex”的声明
+d:\github仓库\practice-code\21-5-29\21-5-29\demo.cpp(60): error C2333: “Complex::Complex”: 函数声明中有错误；跳过函数体
+d:\github仓库\practice-code\21-5-29\21-5-29\demo.cpp(74): error C2440: “初始化”: 无法从“Complex”转换为“Complex”
+  d:\github仓库\practice-code\21-5-29\21-5-29\demo.cpp(74): note: 由于复制构造函数不明确或没有可用的复制构造函数，因此无法复制构造 class“Complex”
